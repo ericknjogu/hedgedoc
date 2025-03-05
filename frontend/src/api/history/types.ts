@@ -24,9 +24,7 @@ export interface HistoryEntry {
   blocks: string[]
 }
 
-export interface Notes {
-  
-}
+
 
 export interface HistoryEntryWithOrigin extends HistoryEntry {
   origin: HistoryEntryOrigin
